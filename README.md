@@ -157,7 +157,7 @@ Some examples are below:
 
 
 ## Data Annotation
-- All the images are collected from Wikimedia commons (under Creative Commons Licence, cc-by-sa-4.0)
+- All the images are collected from Wikimedia commons (under Creative Commons Licence, cc-by-sa-4.0).
 - Further detection and recognition annotations are manually annotated.
 
 ## Acknowledgement

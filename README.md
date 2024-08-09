@@ -27,7 +27,7 @@ Bharat Scene Text Dataset (BSTD) is large scene-text dataset with coverage acros
 | 6,582 | 1,20,560 | 94,128 | 26,432 |
 
 ### Cropped Word Recogntion
-| Language | recognition annotations | #Train | #Test|
+| Language | #Total recognition annotations | #Train | #Test|
 | :---: | :---: | :---: | :---: |
 | Assamese | 3966 | 2623 | 1343 |
 | Bengali | 6129 | 4968 | 1161 |

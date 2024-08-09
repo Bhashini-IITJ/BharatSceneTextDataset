@@ -109,7 +109,7 @@ Words in the image are annotated in the polygon format. The annotation file is a
 ## Task 2: Cropped word recognition
 
 ### Data Download:
-Download the recognition.zip from the [link](https://drive.google.com/file/d/1wvlTbGnpnSRspM5MbjDgfSMH3BwM6qI0/view?usp=sharing) (zip file ~19GB).
+Download the recognition.zip from the [link](https://drive.google.com/file/d/1wvlTbGnpnSRspM5MbjDgfSMH3BwM6qI0/view?usp=sharing) (zip file ~774 MB).
 
 ### File structure
 

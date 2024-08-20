@@ -29,21 +29,21 @@ Bharat Scene Text Dataset (BSTD) is large scene-text dataset with coverage acros
 ### Cropped Word Recogntion
 | Language | #Total recognition annotations | #Train | #Test|
 | :---: | :---: | :---: | :---: |
-| Assamese | 3966 | 2623 | 1343 |
-| Bengali | 6129 | 4968 | 1161 |
-| English | 36891 | 28778 | 8113 |
-| Gujarati | 2649 | 1956 | 693 |
-| Hindi | 18889 | 14855 | 4034 |
-| Kannada | 2934 | 2241 | 693 |
-| Malayalam | 2975 | 2408 | 567 |
-| Marathi | 4977 | 3932 | 1045 |
+| Assamese | 3,966 | 2,623 | 1,343 |
+| Bengali | 6,129 | 4,968 | 1,161 |
+| English | 36,891 | 28,778 | 8,113 |
+| Gujarati | 2,649 | 1,956 | 693 |
+| Hindi | 18,889 | 14,855 | 4,034 |
+| Kannada | 2,934 | 2,241 | 693 |
+| Malayalam | 2,975 | 2,408 | 567 |
+| Marathi | 4,977 | 3,932 | 1,045 |
 | Meitei | 494 | 381 | 113 |
-| Odia | 4198 | 3176 | 1022 |
-| Punjabi | 11104 | 8544 | 2560 |
-| Tamil | 2548 | 2041 | 507 |
-| Telugu | 2709 | 2227 | 482 |
+| Odia | 4,198 | 3,176 | 1,022 |
+| Punjabi | 11,104 | 8,544 | 2,560 |
+| Tamil | 2,548 | 2,041 | 507 |
+| Telugu | 2,709 | 2,227 | 482 |
 | Urdu | 32 | 29 | 3 |
-|Total| 100495 | 78159 | 22336 |
+|Total| 1,00,495 | 78,159 | 22,336 |
 
 
 ## Task 1: Scene text detection

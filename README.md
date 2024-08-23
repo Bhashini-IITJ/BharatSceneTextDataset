@@ -139,7 +139,16 @@ Each file contains rows (each row has comma seperated values as follows)
 ```
 path_to_the_cropped_word_image, recogntion_annotation, script_language
 ```
-
+## Data Connversion:
+To convert the recognition data into lmbd files use ```fetch_lmdb_format_data.py```. 
+```
+Usage
+python fetch_lmdb_format_data.py --recognition_folder_path ~bstd/recognition/ --split train --language hindi --output_directory lmdb/hindi/train/real/hindi
+```
+To get more details on arguments
+```
+python fetch_lmdb_format_data.py --help
+```
 ## Data Visualisation of Detection Annotations:
 To visualise detection annotations, run the following command:
 ```

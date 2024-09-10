@@ -175,7 +175,7 @@ For any queries, please contact us at:
   author = {Abhirama Subramanyam Penamakuri, Anik De, Anand Mishra},
   month = {8},
   title = {{BharatSceneTextDataset}},
-  url = {https://github.com/Abhiram4572/BharatSceneTextDataset},
+  url = {[https://github.com/Abhiram4572/BharatSceneTextDataset](https://github.com/Bhashini-IITJ/BharatSceneTextDataset/)},
   version = {1.0},
   year = {2024}
 }

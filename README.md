@@ -144,7 +144,6 @@ path_to_the_cropped_word_image, recogntion_annotation, script_language
 
 ### Data Download:
 BSTD images split used in Visual Translation can be downloaded from the [link](https://drive.google.com/file/d/1Vi4aPn8w9R4dpiN6Vlt8__prDwT5c6Yk/view?usp=share_link)
-BSTD images split used in Visual Translation can be downloaded from the 
 
 Images used in Visual Translation can be downloaded directly from the [link](https://drive.google.com/file/d/1jIPl2C-xjFKyAsDMLPuQBPadIJwI0KEN/view?usp=share_link)
 

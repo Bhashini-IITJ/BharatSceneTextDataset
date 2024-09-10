@@ -106,7 +106,7 @@ Words in the image are annotated in the polygon format. The annotation file is a
 }
 ```
 
-## Task 2: Cropped word recognition
+## Task 2: Cropped word recognition and Task 3: Script Identification
 
 ### Data Download:
 Download the recognition.zip from the [link](https://drive.google.com/file/d/1wvlTbGnpnSRspM5MbjDgfSMH3BwM6qI0/view?usp=sharing) (zip file ~774 MB).
@@ -139,6 +139,14 @@ Each file contains rows (each row has comma seperated values as follows)
 ```
 path_to_the_cropped_word_image, recogntion_annotation, script_language
 ```
+
+## Visual Translation Split
+
+### Data Download:
+BSTD images split used in Visual Translation can be downloaded from the [link](https://drive.google.com/file/d/1Vi4aPn8w9R4dpiN6Vlt8__prDwT5c6Yk/view?usp=share_link)
+BSTD images split used in Visual Translation can be downloaded from the 
+
+Images used in Visual Translation can be downloaded directly from the [link](https://drive.google.com/file/d/1jIPl2C-xjFKyAsDMLPuQBPadIJwI0KEN/view?usp=share_link)
 
 ## Data Visualisation of Detection Annotations:
 To visualise detection annotations, run the following command:
@@ -174,7 +182,7 @@ For any queries, please contact us at:
 @software{BharatSceneTextDataset,
   author = {Abhirama Subramanyam Penamakuri, Anik De, Anand Mishra},
   month = {8},
-  title = {{BharatSceneTextDataset}},
+  title = {BharatSceneTextDataset},
   url = {https://github.com/Bhashini-IITJ/BharatSceneTextDataset/},
   version = {1.0},
   year = {2024}

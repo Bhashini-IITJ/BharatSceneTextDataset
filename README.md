@@ -142,6 +142,8 @@ path_to_the_cropped_word_image, recogntion_annotation, script_language
 
 ## Visual Translation Split
 
+[Link](https://arxiv.org/abs/2308.03024) to our ICPR 2024 paper on visual translation.
+
 ### Data Download:
 BSTD images split used in Visual Translation can be downloaded from the [link](https://drive.google.com/file/d/1Vi4aPn8w9R4dpiN6Vlt8__prDwT5c6Yk/view?usp=share_link)
 

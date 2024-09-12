@@ -140,14 +140,12 @@ Each file contains rows (each row has comma seperated values as follows)
 path_to_the_cropped_word_image, recogntion_annotation, script_language
 ```
 
-## Visual Translation Split
-
-[Link](https://arxiv.org/abs/2308.03024) to our ICPR 2024 paper on visual translation.
+## Image subset used in (Vaidya et al., ICPR 2024) [Preprint](https://arxiv.org/abs/2308.03024)
 
 ### Data Download:
-BSTD images split used in Visual Translation can be downloaded from the [link](https://drive.google.com/file/d/1Vi4aPn8w9R4dpiN6Vlt8__prDwT5c6Yk/view?usp=share_link)
+BSTD images split used for Hindi to English scene text to scene text transaltion can be downloaded from the [link](https://drive.google.com/file/d/1Vi4aPn8w9R4dpiN6Vlt8__prDwT5c6Yk/view?usp=share_link)
 
-Images used in Visual Translation can be downloaded directly from the [link](https://drive.google.com/file/d/1jIPl2C-xjFKyAsDMLPuQBPadIJwI0KEN/view?usp=share_link)
+Images used for Hindi to English scene text to scene text transaltion can be downloaded directly from the [link](https://drive.google.com/file/d/1jIPl2C-xjFKyAsDMLPuQBPadIJwI0KEN/view?usp=share_link)
 
 ## Data Visualisation of Detection Annotations:
 To visualise detection annotations, run the following command:
@@ -180,12 +178,9 @@ For any queries, please contact us at:
 ## Citation
 
 ```
-@software{BharatSceneTextDataset,
-  author = {Abhirama Subramanyam Penamakuri, Anik De, Anand Mishra},
-  month = {8},
-  title = {BharatSceneTextDataset},
-  url = {https://github.com/Bhashini-IITJ/BharatSceneTextDataset/},
-  version = {1.0},
-  year = {2024}
+@misc{BSTD,
+   title      = {{B}harat {S}cene {T}ext {D}ataset},
+  howpublished = {\url{https://github.com/Bhashini-IITJ/BharatSceneTextDataset}},
+  year         = 2024,
 }
 ```

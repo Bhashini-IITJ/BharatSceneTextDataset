@@ -140,12 +140,24 @@ Each file contains rows (each row has comma seperated values as follows)
 path_to_the_cropped_word_image, recogntion_annotation, script_language
 ```
 
+### Data Connversion:
+To convert the recognition data into lmbd files use ```fetch_lmdb_format_data.py```. 
+```
+Usage
+python fetch_lmdb_format_data.py --recognition_folder_path ~bstd/recognition/ --split train --language hindi --output_directory lmdb/hindi/train/real/hindi
+```
+To get more details on arguments
+```
+python fetch_lmdb_format_data.py --help
+```
+
 ## Image subset used in (Vaidya et al., ICPR 2024) [Preprint](https://arxiv.org/abs/2308.03024)
 
 ### Data Download:
 BSTD images split used for Hindi to English scene text to scene text transaltion can be downloaded from the [link](https://drive.google.com/file/d/1Vi4aPn8w9R4dpiN6Vlt8__prDwT5c6Yk/view?usp=share_link)
 
 Images used for Hindi to English scene text to scene text transaltion can be downloaded directly from the [link](https://drive.google.com/file/d/1jIPl2C-xjFKyAsDMLPuQBPadIJwI0KEN/view?usp=share_link)
+
 
 ## Data Visualisation of Detection Annotations:
 To visualise detection annotations, run the following command:

@@ -168,7 +168,7 @@ For the task of script identification, a dataset comprising images from three la
 | telugu_   | 2227 | 482  | 2227 | 482  | 2227 | 482  |
 | urdu_     | 29   | 3    | 29   | 3    | 29   | 3    |
 
-This dataset can be downloaded from this [link](). A script ```utils/make_dataset_for_scriptIdentification.py``` has also beed added to as to be able to directly create this dataset using the recognition dataset made available the upper section.
+This dataset can be downloaded from this [link](https://drive.google.com/drive/folders/1mgshhprW8WjJ6rhxq0FNFmqU_fIPt9nM?usp=drive_link). A script ```utils/make_dataset_for_scriptIdentification.py``` has also beed added to as to be able to directly create this dataset using the recognition dataset made available the upper section.
 
 ## Image subset used in (Vaidya et al., ICPR 2024) [Preprint](https://arxiv.org/abs/2308.03024)
 

@@ -106,7 +106,7 @@ Words in the image are annotated in the polygon format. The annotation file is a
 }
 ```
 
-## Task 2: Cropped word recognition and Task 3: Script Identification
+## Task 2: Cropped word recognition
 
 ### Data Download:
 Download the recognition.zip from the [link](https://drive.google.com/file/d/1wvlTbGnpnSRspM5MbjDgfSMH3BwM6qI0/view?usp=sharing) (zip file ~774 MB).
@@ -141,7 +141,7 @@ path_to_the_cropped_word_image, recogntion_annotation, script_language
 ```
 
 ### Data Connversion:
-To convert the recognition data into lmbd files use ```fetch_lmdb_format_data.py```. 
+To convert the recognition data into lmbd files use ```utils/fetch_lmdb_format_data.py```. 
 ```
 Usage
 python fetch_lmdb_format_data.py --recognition_folder_path ~bstd/recognition/ --split train --language hindi --output_directory lmdb/hindi/train/real/hindi
@@ -150,6 +150,31 @@ To get more details on arguments
 ```
 python fetch_lmdb_format_data.py --help
 ```
+
+## Task 3: Script Identification
+For the task of script identification, a dataset comprising images from three languages—English, Hindi, and a specific regional language—has been created. This setup allows for the evaluation of a model that classifies these three classes. The choice of languages reflects the common occurrence of these three languages in certain regions of India.
+| Folder | #Language | | #English| |#Hindi| |
+| :------| :------| :------| :------|:-------| :------| :------|
+|        | Train | Test | Train | Test | Train | Test |
+| assamese_ | 2623 | 1343 | 2623 | 1343 | 2623 | 1343 |
+| bengali_  | 4968 | 1161 | 4968 | 1161 | 4968 | 1161 |
+| gujarati_ | 1956 | 693  | 1956 | 693  | 1956 | 693  |
+| kannada_  | 2241 | 693  | 2241 | 693  | 2241 | 693  |
+| malayalam_| 2408 | 567  | 2408 | 567  | 2408 | 567  |
+| marathi_  | 3932 | 1045 | 3932 | 1045 | 3932 | 1045 |
+| meitei_   | 381  | 113  | 381  | 113  | 381  | 113  |
+| odia_     | 3176 | 1022 | 3176 | 1022 | 3176 | 1022 |
+| tamil_    | 2041 | 507  | 2041 | 507  | 2041 | 507  |
+| telugu_   | 2227 | 482  | 2227 | 482  | 2227 | 482  |
+| urdu_     | 29   | 3    | 29   | 3    | 29   | 3    |
+| hindi_    | -    |    - |14855 |4034  |14855 |4034  |
+
+This dataset can be downloaded from this [link](https://drive.google.com/drive/folders/1gjdmyTR_9B7U1-W7hWugewnSowjetXYC?usp=drive_link). A script ```utils/make_dataset_for_scriptIdentification.py``` has also beed added to as to be able to directly create this dataset using the recognition dataset made available the upper section.
+
+### How to use
+Each folder contains images from three language folders. For example, the folder bengali_ includes cropped word images of Hindi, English, and Bengali. For the ```test/bengali_```folder, all image paths are listed in ```test.csv```, which includes the correct language tag for each image. Similarly, all images in the train folder under each language-specific folder are listed in ```train.csv``` with their respective language tags.
+
+Note: The hindi_ folder contains only cropped images of Hindi and English, with each image path listed in the CSV files.
 
 ## Image subset used in (Vaidya et al., ICPR 2024) [Preprint](https://arxiv.org/abs/2308.03024)
 

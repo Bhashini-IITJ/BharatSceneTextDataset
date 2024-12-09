@@ -204,6 +204,9 @@ Some examples are below:
 - All the images are collected from Wikimedia commons (under Creative Commons Licence, cc-by-sa-4.0).
 - Further detection and recognition annotations are manually annotated.
 
+## Related Indian Language Scene Text Recognition Toolkit
+[IndicPhotoOCR](https://github.com/Bhashini-IITJ/IndicPhotoOCR)
+
 ## Acknowledgement
 This work was partly supported by MeitY, Government of India (Project Number: S/MeitY/AM/20210114) under NLTM-Bhashini.
 

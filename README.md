@@ -8,7 +8,7 @@
 </div>
 
 
-Bharat Scene Text Dataset (BSTD) is large scene-text dataset with coverage across **13 Indian languages** and English. It consists of 6,582 scene-text images, with polygon bounding box annotations of 1,20,560 words and ground truth text annotations of 1,00,495 cropped words. This dataset is an effort towards scaling scene-text detection and recognition systems to work on Indian languages. The current version of this dataset can be used for studying scene text detection and cropped scene text word recognition.
+Bharat Scene Text Dataset (BSTD) is large and real Indian language scene-text dataset with coverage across **13 Indian languages** and English. It consists of 6,582 scene-text images, with polygon bounding box annotations of 1,20,560 words and ground truth text annotations of 1,00,495 cropped words. This dataset is an effort towards scaling scene-text detection and recognition systems to work on Indian languages. The current version of this dataset can be used for studying scene text detection and cropped scene text word recognition.
 
 [comment]: <> (Add a table with 13 languages and links to its files)
 

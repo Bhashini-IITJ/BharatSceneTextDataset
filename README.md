@@ -37,13 +37,14 @@ Bharat Scene Text Dataset (BSTD) is large and real Indian language scene-text da
 | Kannada | 2,934 | 2,241 | 693 |
 | Malayalam | 2,975 | 2,408 | 567 |
 | Marathi | 4,977 | 3,932 | 1,045 |
-| Meitei | 494 | 381 | 113 |
+#| Meitei | 494 | 381 | 113 |
 | Odia | 4,198 | 3,176 | 1,022 |
 | Punjabi | 11,104 | 8,544 | 2,560 |
 | Tamil | 2,548 | 2,041 | 507 |
 | Telugu | 2,709 | 2,227 | 482 |
-| Urdu | 32 | 29 | 3 |
-|Total| 1,00,495 | 78,159 | 22,336 |
+#| Urdu | 32 | 29 | 3 |
+|Others | 20600 | - | - |
+|Total| 1,20,560 | 77,749 | 22,220 |
 
 
 ## Task 1: Scene text detection

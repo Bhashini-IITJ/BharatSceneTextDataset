@@ -42,7 +42,7 @@ Bharat Scene Text Dataset (BSTD) is large and real Indian language scene-text da
 | Tamil | 2,548 | 2,041 | 507 |
 | Telugu | 2,709 | 2,227 | 482 |
 |Others | 20600 | - | - |
-|Total| 1,20,560 | 77,749 | 22,220 |
+|Total| 1,20,591 | 77,749 | 22,220 |
 
 
 ## Task 1: Scene text detection

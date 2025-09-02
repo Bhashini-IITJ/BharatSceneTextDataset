@@ -3,7 +3,8 @@
 <div align="center">
 
 [![GitHub stars](https://img.shields.io/github/stars/Bhashini-IITJ/BharatSceneTextDataset.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Bhashini-IITJ/BharatSceneTextDataset/stargazers/)
-![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Bhashini-IITJ/BharatSceneTextDataset&title=Repo%20Views)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Bhashini-IITJ.BharatSceneTextDataset)
+
 
 </div>
 

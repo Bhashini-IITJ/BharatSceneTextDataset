@@ -50,7 +50,11 @@ Bharat Scene Text Dataset (BSTD) is large and real Indian language scene-text da
 
 ### Data Download:
 Download the detection.zip from the [link](https://drive.google.com/file/d/16irnMGdT8ohhvfMMG3qbBKWKxcPLNF0y/view?usp=share_link) (zip file ~17 GB).
-
+#### To download:
+> ```
+>pip install gdown
+> gdown --id {file_id} --output {output_file_name.zip}
+> ```
 Annotations are in BSTD_release_v1.json
 
 ### File structure

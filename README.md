@@ -152,24 +152,26 @@ python fetch_lmdb_format_data.py --help
 ```
 
 ## Task 3: Script Identification
-For the task of script identification, a dataset comprising images from three languages—English, Hindi, and a specific regional language—has been created. This setup allows for the evaluation of a model that classifies these three classes. The choice of languages reflects the common occurrence of these three languages in certain regions of India.
-| Folder | #Language | | #English| |#Hindi| |
-| :------| :------| :------| :------|:-------| :------| :------|
-|        | Train | Test | Train | Test | Train | Test |
-| assamese_ | 2623 | 1343 | 2623 | 1343 | 2623 | 1343 |
-| bengali_  | 4968 | 1161 | 4968 | 1161 | 4968 | 1161 |
-| gujarati_ | 1956 | 693  | 1956 | 693  | 1956 | 693  |
-| kannada_  | 2241 | 693  | 2241 | 693  | 2241 | 693  |
-| malayalam_| 2408 | 567  | 2408 | 567  | 2408 | 567  |
-| marathi_  | 3932 | 1045 | 3932 | 1045 | 3932 | 1045 |
-| meitei_   | 381  | 113  | 381  | 113  | 381  | 113  |
-| odia_     | 3176 | 1022 | 3176 | 1022 | 3176 | 1022 |
-| tamil_    | 2041 | 507  | 2041 | 507  | 2041 | 507  |
-| telugu_   | 2227 | 482  | 2227 | 482  | 2227 | 482  |
-| urdu_     | 29   | 3    | 29   | 3    | 29   | 3    |
-| hindi_    | -    |    - |14855 |4034  |14855 |4034  |
+For the task of script identification, there are two ways we have configured the dataset. 
+
+**First 3-way classification**: A dataset comprising images from three languages :English, Hindi, and a specific regional language has been created. This setup allows training and testing a model that classifies these three classes. 
+| Folder | Regional Language | #Language (Reg. Only) | #English (Reg. + Eng.) | #Hindi (Reg. + Hin.) |
+| :------| :------| :------| :------| :------|
+| **(Lang.)** | **(Name)** | **Train \| Test** | **Train \| Test** | **Train \| Test** |
+| assamese\_ | Assamese | 2623 \| 1343 | 2623 \| 1343 | 2623 \| 1343 |
+| bengali\_ | Bengali | 4968 \| 1161 | 4968 \| 1161 | 4968 \| 1161 |
+| gujarati\_ | Gujarati | 1956 \| 693 | 1956 \| 693 | 1956 \| 693 |
+| kannada\_ | Kannada | 2241 \| 693 | 2241 \| 693 | 2241 \| 693 |
+| malayalam\_ | Malayalam | 2408 \| 567 | 2408 \| 567 | 2408 \| 567 |
+| marathi\_ | Marathi | 3932 \| 1045 | 3932 \| 1045 | 3932 \| 1045 |
+| odia\_ | Odia | 3176 \| 1022 | 3176 \| 1022 | 3176 \| 1022 |
+| tamil\_ | Tamil | 2041 \| 507 | 2041 \| 507 | 2041 \| 507 |
+| telugu\_ | Telugu | 2227 \| 482 | 2227 \| 482 | 2227 \| 482 |
+| hindi\_ | Hindi | - \| - | 14855 \| 4034 | 14855 \| 4034 |
 
 This dataset can be downloaded from this [link](https://drive.google.com/drive/folders/1gjdmyTR_9B7U1-W7hWugewnSowjetXYC?usp=drive_link). A script ```utils/make_dataset_for_scriptIdentification.py``` has also beed added to as to be able to directly create this dataset using the recognition dataset made available the upper section.
+
+**Second 12-way classification**: A dataset set has been curated to classify script into 12-classes altogether. Each language contains 1800 images in train set and 478 images in test set all of which are taken from recognition dataset. The images can be download from [here](https://drive.google.com/drive/folders/1Q3w4LnRlNrHJ6RngwYF05h-FLFYgb8Yq?usp=sharing).
 
 ### How to use
 Each folder contains images from three language folders. For example, the folder bengali_ includes cropped word images of Hindi, English, and Bengali. For the ```test/bengali_```folder, all image paths are listed in ```test.csv```, which includes the correct language tag for each image. Similarly, all images in the train folder under each language-specific folder are listed in ```train.csv``` with their respective language tags.

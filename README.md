@@ -25,7 +25,7 @@ Bharat Scene Text Dataset (BSTD) is large and real Indian language scene-text da
 
 | Total images | #Total bounding box (bb) | #Train Images | #Test Images |
 | :---: | :---: | :---: | :---: |
-| 6,582 | 1,20,560 | 5,263 (#bb = 94,128) | 1,319 (#bb = 26,432) |
+| 6,582 | 1,26,292 | 5,263 (#bb = 94,128) | 1,319 (#bb = 32,164) |
 
 ### Cropped Word Recogntion
 | Language | #Total recognition annotations | #Train | #Test|

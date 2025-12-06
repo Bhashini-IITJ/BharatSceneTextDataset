@@ -4,6 +4,7 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/Bhashini-IITJ/BharatSceneTextDataset.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Bhashini-IITJ/BharatSceneTextDataset/stargazers/)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Bhashini-IITJ.BharatSceneTextDataset)
+[![arXiv](https://img.shields.io/badge/arXiv-2401.01234-b31b1b.svg?style=flat-square)](https://www.arxiv.org/pdf/2511.23071)
 
 
 </div>

@@ -179,8 +179,12 @@ python3 visualise.py A/image_1005.jpg path_to_BSTD_v17.57.json
 ```
 
 **Visual Output Examples**:  
-![Visualised Output 1](visualised_images/image.jpg)  
-![Visualised Output 2](visualised_images/image2.jpg)
+
+<p align="center">
+  <img src="./visualised_images/image.jpg" width="48%" alt="Visualised Output 1" />
+  &nbsp;
+  <img src="./visualised_images/image2.jpg" width="48%" alt="Visualised Output 2" />
+</p>
 
 ---
 

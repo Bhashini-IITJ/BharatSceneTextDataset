@@ -33,23 +33,29 @@ def createDataset(recognition_folder_path, split, language, output_directory, ch
         checkValid              : if true, check the validity of every image
     """
     inputPath = os.path.join(recognition_folder_path, split, language)
-    gtFile = os.path.join(recognition_folder_path, f'{split}.csv')
+    gtFile = os.path.join(recognition_folder_path, f'{split}_recognition_data.json')
     os.makedirs(output_directory, exist_ok=True)
     env = lmdb.open(output_directory, map_size=1099511627776)
 
     cache = {}
     cnt = 1
 
+    import json
     with open(gtFile, 'r', encoding='utf-8') as f:
-        reader = csv.reader(f)
+        data = json.load(f)
         nSamples = 0
-        for i, row in enumerate(reader):
-            imagePath, label, lang = row
-            if lang != language or not imagePath.startswith(f'{split}/{language}'):
+        for i, item in enumerate(data.values()):
+            imagePath = item['path']
+            label = item['text']
+            lang = item['language']
+            if lang != language or not imagePath.startswith(f'Recognition/{split}/{language}'):
                 continue
-            imagePath = os.path.join(recognition_folder_path, imagePath)
-            with open(imagePath, 'rb') as f:
-                imageBin = f.read()
+            
+            relImagePath = imagePath.replace('Recognition/', '', 1) if imagePath.startswith('Recognition/') else imagePath
+            fullPath = os.path.join(recognition_folder_path, relImagePath)
+            
+            with open(fullPath, 'rb') as fp:
+                imageBin = fp.read()
             if checkValid:
                 try:
                     img = Image.open(io.BytesIO(imageBin)).convert('RGB')

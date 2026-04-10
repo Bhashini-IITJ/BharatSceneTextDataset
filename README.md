@@ -52,7 +52,7 @@ We introduce the Bharat Scene Text Dataset (BSTD) — a large-scale benchmark fo
 
 ### Task 1: Scene Text Detection
 
-> 📥 **Data Download**: Download the `detection.zip` from this **[link](https://drive.google.com/file/d/16irnMGdT8ohhvfMMG3qbBKWKxcPLNF0y/view?usp=share_link)** (zip file ~17 GB). Annotations are in `BSTD_v17.57.json`.
+> 📥 **Data Download**: Download the `detection.zip` from this **[link](https://drive.google.com/file/d/1S7KUYfB-lQvbu6GtvZxxDPOD5ZZ080M0/view?usp=sharing)** (zip file ~17 GB). Annotations are in `BSTD_v17.57.json`.
 
 **File Structure**:
 ```text

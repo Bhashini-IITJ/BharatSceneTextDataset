@@ -214,9 +214,10 @@ For any queries, please reach out:
 ## 📝 Citation
 If you use this benchmark or the tools, please cite our underlying works:
 ```bibtex
-@misc{BSTD,
-   title        = {{B}harat {S}cene {T}ext {D}ataset},
-   howpublished = {\url{https://github.com/Bhashini-IITJ/BharatSceneTextDataset}},
-   year         = 2024,
+@article{de2025bharat,
+  title={Bharat Scene Text: A Novel Comprehensive Dataset and Benchmark for Indian Language Scene Text Understanding},
+  author={De, Anik and Penamakuri, Abhirama Subramanyam and Yadav, Rajeev and Rathore, Aditya and Shah, Harshiv and Sharma, Devesh and Agarwal, Sagar and Kumar, Pravin and Mishra, Anand},
+  journal={arXiv preprint arXiv:2511.23071},
+  year={2025}
 }
 ```
